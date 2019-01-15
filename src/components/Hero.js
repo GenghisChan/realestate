@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/Hero.css'
+import Image from '../img/hero4.jpg'
 
 const styles = {
-  hero: {
+  header: {
     backgroundImage: `url(${Image})`,
     opacity: .8
   }
@@ -10,9 +11,7 @@ const styles = {
 
 const Hero = () => {
   return(
-    <div className="container hero">
-
-    </div>
+    <div className="container hero" style={styles.header}></div>
   )
 }
 

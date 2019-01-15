@@ -1,5 +1,17 @@
 .hero {
-  background-position: center;
   background-size: cover;
-  height: 1000px;
+  background-position: center;
+  min-height: 700px;
+  width: 100%;
 }
+
+@media screen and (max-width: 670px){
+  .hero {
+    min-height: 500px;
+  }
+}
+
+/* .section {
+  background-color: purple;
+  width: 100%;
+} */

@@ -1,16 +1,9 @@
 import React from 'react';
-import '../styles/Navbar.css';
-import Image from '../img/hero4.jpg'
+import '../styles/Navbar.css'
 import { Link } from 'react-router-dom'
 
 console.log(Image)
 
-// const styles = {
-//   header: {
-//     backgroundImage: `url(${Image})`,
-//     opacity: .8
-//   }
-// };
 
 const Navbar = () => {
   return(
