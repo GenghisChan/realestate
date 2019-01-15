@@ -1,8 +1,11 @@
 import React, { Component } from 'react'
+import apartment2 from '../img/apartment2.jpg'
+import apartment from '../img/apartment.jpg'
 
 class Featured extends Component {
   render(){
     return(
+      <div className="grey lighten-5">
       <section className="container section" id="photos">
       <h3 className="green-text center featured">Featured Listings</h3>
         <div className="row">
@@ -30,6 +33,7 @@ class Featured extends Component {
       </div>
 
       </section>
+      </div>
 
     )
   }

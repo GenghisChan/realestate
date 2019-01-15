@@ -1,42 +1,60 @@
 import React, { Component } from 'react'
 
 class Contact extends Component {
-render(){
-  return(
+  render(){
+    return(
+      <section className="section container" id="contact">
+        <h4 className="center">CONTACT US</h4>
+        <div className="row">
+          <div className="col s12 l5">
+            <h2 className="indigo-text text-darken-4">Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+          <div className="col s12 l5 offset-l2">
+            <form>
+              <div className="input-field">
+                <i className="material-icons prefix">email</i>
+                <input type="email" id="email" placeholder="example@gmail.com"/>
+                <label for="email">Email</label>
+              </div>
+              <div className="input-field">
+                <i className="material-icons prefix">message</i>
+                <textarea id="message" className="materialize-textarea" placeholder="I would love to hear more about .."></textarea>
+                <label for="message">Your Message</label>
+              </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col m10 offset-m1 s12">
-            <h2 class="center-align">Contact Form</h2>
-            <div class="row">
-                <form class="col m8 offset-m2 s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="name" type="text"/>
-                            <label for="name">Name</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="form-input"/>
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="input-field col s12">
-                          <textarea id="message" class="materialize-textarea"></textarea>
-                          <label for="message">Message</label>
-                        </div>
-                    </div>
+              <div className="input-field">
+                <input type="text" id="date" className="datepicker"/>
+                <label for="date">Date</label>
+              </div>
 
-                    <div class="divider"></div>
-                    <div class="row">
-                        <div class="col m12">
-                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
-                        </div>
-                    </div>
-                </form>
-            </div>
+              <div className="input-field">
+                <p>
+                  <label>
+                  <input type="checkbox"/>
+                    <span>Information</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                  <input type="checkbox"/>
+                    <span>Tour</span>
+                  </label>
+                </p>
+              </div>
+
+              <div className="input-field center">
+                <button className="btn">Submit</button>
+              </div>
+            </form>
+          </div>
         </div>
-    </div>
-</div>
-
+      </section>
     )
   }
 }
