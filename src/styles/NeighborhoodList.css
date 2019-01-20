@@ -1,0 +1,21 @@
+img {
+  opacity: .7;
+}
+
+.neighborhoodHero {
+  background-size: cover;
+  background-position: top;
+  min-height: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 670px){
+  .neighborhoodHero {
+    min-height: 500px;
+  }
+}
+
+
+.card:hover {
+  opacity: 1;
+}

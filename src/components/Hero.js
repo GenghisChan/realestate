@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Hero.css'
-import Image from '../img/hero4.jpg'
+import Image from '../img/purple_hero.jpeg'
 
 const styles = {
   header: {

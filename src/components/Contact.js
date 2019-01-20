@@ -7,24 +7,30 @@ class Contact extends Component {
         <h4 className="center">CONTACT US</h4>
         <div className="row">
           <div className="col s12 l5">
-            <h2 className="indigo-text text-darken-4">Get In Touch</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <h5 className="indigo-text text-darken-4">TO CONTACT OUR RENTAL OR SALES TEAM PLEASE CALL OR EMAIL US:</h5>
+              <div className="row">
+              <div className="col s12 l6">
+              <p>277 Grand Street</p>
+              <p>Jersey City, NJ</p>
+              <p>Tel: 123-456-7890</p>
+              </div>
+              <div className="col l6">
+              <p>Email: info@mysite.com</p>
+              <p>Fax: 123-456-7890</p>
+              <p>Add Google Map here</p>
+              </div>
+            </div>
           </div>
           <div className="col s12 l5 offset-l2">
             <form>
               <div className="input-field">
                 <i className="material-icons prefix">email</i>
-                <input type="email" id="email" placeholder="example@gmail.com"/>
+                <input type="email" id="email"/>
                 <label for="email">Email</label>
               </div>
               <div className="input-field">
                 <i className="material-icons prefix">message</i>
-                <textarea id="message" className="materialize-textarea" placeholder="I would love to hear more about .."></textarea>
+                <textarea id="message" className="materialize-textarea"></textarea>
                 <label for="message">Your Message</label>
               </div>
 

@@ -7,13 +7,6 @@ import Hero from './Hero'
 import Featured from './Featured'
 import Contact from './Contact'
 
-// const styles = {
-//   header: {
-//     backgroundImage: `url(${Image})`,
-//     opacity: .8
-//   }
-// };
-
 const Home = () => {
   return(
     <div>
